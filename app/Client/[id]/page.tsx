@@ -22,7 +22,7 @@ interface Products {
     };
   }
 
-  const productDetail = ()=>{
+  const ProductDetail = ()=>{
       const {id} = useParams();
       const [product, setProduct] = useState<Products | null>(null);
       
@@ -89,4 +89,4 @@ interface Products {
 
 
 
-    export default productDetail;
+    export default ProductDetail;
